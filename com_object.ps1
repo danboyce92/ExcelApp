@@ -1,6 +1,8 @@
 ﻿$FilePath = "C:\Users\cian1\OneDrive\Documents\powershell project\bum.xlsx"
 $MasterPath = "C:\Users\cian1\OneDrive\Documents\powershell project\Master.xlsx"
 
+#$FilePath = "../folderWithExcelFile/bum.xlsx"
+
 #opens files in same folder, how do other folders?
 
 
@@ -17,13 +19,13 @@ $worksheet = $workbook.Worksheets.Item("Sheet1")
 $column1 = $WorkSheet.Columns.Item(1).value2
 
 #  Loop to find the number infirst col
-	$i=0
-	Do {
-		If ($Column1[$i,1] -ne "number" -and $Column1[$i,1] -ge 0){
+$i = 0
+Do {
+	If ($Column1[$i, 1] -ne "number" -and $Column1[$i, 1] -ge 0) {
         
-        $bumnumber = $Column1[$i,1]
+		$bumnumber = $Column1[$i, 1]
 
-		}
+	}
 }  # End If Number Found
 While ($i++ -lt 33) 
 
