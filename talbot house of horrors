@@ -1,0 +1,527 @@
+
+// TALBOT HOUSE OF HORRORS // 
+#include <iostream>
+#include <string>
+using namespace std;
+#include <stdio.h>
+
+/*combat notes
+  enimies telegraph their attacks and then player has a chance to evade roll , parry , dodge etc*/
+
+int Intro() {
+   
+ int output;
+ 
+ std::string enter;
+ printf("Joe woke up in a cold sweat....\n");
+ getline (std::cin,enter);
+ printf("He had just had the most awful dream.....\n");
+ getline (std::cin,enter);
+ printf("The hazy memories of it were still making his skin crawl....\n");
+ getline (std::cin,enter);
+ printf("Joes mouth was bone dry.....\n");
+  getline (std::cin,enter);
+ 
+ printf("What should Joe do.....\n");
+ printf("1. Get up and go downstairs for a drink of water?\n");
+ printf("2. Try to forget the dream and go back to sleep?\n");
+ printf("3. Have a bait?\n");
+ 
+ cin >> output;
+ 
+ printf("\n");
+ 
+ /*if (output == 1){
+ printf("ngwell\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 2){
+ printf("ngoo\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 3){
+ printf("1234\n");
+ getline (std::cin,enter);
+ }  */
+ 
+ 
+ return(output);
+
+}
+
+int Arc1() {
+   
+ int output;
+ 
+ std::string enter;
+ 
+ getline (std::cin,enter);
+ printf("Joe pranced gingerly out of his bed and threw on his nighty....\n");
+ getline (std::cin,enter);
+ printf("It was a cold dark night and the wind was howling though the trees....\n");
+ getline (std::cin,enter);
+ printf("The gyrating branches cast menecing shadows through the half parted curtains in the kitchen....\n");
+ getline (std::cin,enter);
+ printf("Joe fumbeled in the dark cabinet for a glass....\n");
+ getline (std::cin,enter);
+ printf("He ran the tap and filled it before greedily gulping it down....\n");
+ getline (std::cin,enter);
+ printf("As cold liquid flowed down it stung the back of his throat....\n");
+ getline (std::cin,enter);
+ printf("As it made contact with his tounge he tasted a distinctive yeasty flavour....\n");
+ getline (std::cin,enter);
+ printf("BLLAAGHH Joe spat out the foul liquid....\n");
+ getline (std::cin,enter);
+ printf("He knew it wasnt water....\n");
+ getline (std::cin,enter);
+ printf("Tasted like....\n");
+ getline (std::cin,enter);
+ printf("1. BEER?\n");
+ printf("2. ?\n");
+ printf("3. Go back to bed Joe must still be dreaming...?\n");
+ 
+ cin >> output;
+
+ return(output);
+
+}//get water
+    int Arc1_1() {
+   
+ int output;
+ 
+ std::string enter;
+ getline (std::cin,enter);
+ printf("BEER! From the tap?!...\n");
+ getline (std::cin,enter);
+ printf("Joe ran to the tap and turned it on...\n");
+ getline (std::cin,enter);
+ printf("Studing the flow he could see the playful bubbles glisten in the moonlight as the beer frothed and sudsed into the sink...\n");
+ getline (std::cin,enter);
+ printf("He could smell the citrus hops...\n");
+ getline (std::cin,enter);
+  printf("Joe hated beer...\n");
+ getline (std::cin,enter);
+ printf("This must be a dream...\n");
+ getline (std::cin,enter);
+ printf("?????????????????\n");
+ printf("1?\n");
+ printf("2?\n");
+ printf("3?\n");
+ 
+ cin >> output;
+ 
+ return(output);
+
+} //Beer guess
+    int Arc1_2() {
+   
+ int output;
+ 
+ std::string enter;
+ printf("Arc1_1");
+ getline (std::cin,enter);
+ printf("blady blady blah");
+ getline (std::cin,enter);
+ printf("etc");
+ getline (std::cin,enter);
+ printf("Decide somthing?\n");
+ printf("1?\n");
+ printf("2?\n");
+ printf("3?\n");
+ 
+ cin >> output;
+ 
+ if (output == 1){
+ printf("ngwell\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 2){
+ printf("ngoo\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 3){
+ printf("1234\n");
+ getline (std::cin,enter);
+ }  
+ 
+ 
+ return(output);
+
+}//??
+   /* int Arc1_3() {
+   
+ int output;
+ 
+ std::string enter;
+ printf("Arc1_1");
+ getline (std::cin,enter);
+ printf("blady blady blah");
+ getline (std::cin,enter);
+ printf("etc");
+ getline (std::cin,enter);
+ printf("Decide somthing?\n");
+ printf("1?\n");
+ printf("2?\n");
+ printf("3?\n");
+ 
+ cin >> output;
+ 
+ if (output == 1){
+ printf("ngwell\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 2){
+ printf("ngoo\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 3){
+ printf("1234\n");
+ getline (std::cin,enter);
+ }  
+ 
+ 
+ return(output);
+
+}*/
+
+int Arc2() {
+   
+ int output;
+ 
+ std::string enter;
+ getline (std::cin,enter);
+ printf("Joe tossed and turned in dhebed...\n");
+ getline (std::cin,enter);
+ printf("He couldnt get the dream man out of his head...\n");
+ getline (std::cin,enter);
+ printf("A ghostly whisper flowed to him across the dreamscape....\n");
+ getline (std::cin,enter);
+ printf("Corrrrcrannnnn boiiiiiii.... it hissed\n");
+ getline (std::cin,enter);
+ printf("Ya sexy wee WEASEL bastard yaaaaaaaa....\n");
+ getline (std::cin,enter);
+ printf("Joe by this time had assumed a trance-like state and was both frigtnened and aroused....\n");
+ getline (std::cin,enter);
+ printf("Some of us have to sleep yanoooo he whispered back....\n");
+ getline (std::cin,enter);
+ printf("Cmeeeereeee taaa meeeee....YA SEXY WEAAAAAASEL....... the voice wailed\n");
+ getline (std::cin,enter);
+ printf("What does Joe do\n");
+ getline (std::cin,enter);
+ printf("1. Give in to the spectres demands (whoever he is)?\n");
+ printf("2. Refuse the beings advances, tell him GWAY hes a cokehed bawstard and uve ta sleep!\n");
+ printf("3. Attack the being, tell him to bring all his ghost mates an youll bring ur one m8 stanley...RITE!\n");
+ 
+ cin >> output;
+ 
+ return(output);
+
+} //dream
+    int Arc2_1() {
+   
+ int output;
+ //give in to the spectres demands (whoever he is)
+ std::string enter;
+ getline (std::cin,enter);
+ printf("Joe heeds the creatures mysterious call and floats through the technogrid...\n");
+ getline (std::cin,enter);
+ printf("shifting morphing tumbling unexplainable colours and geometrys envelop him...\n");
+ getline (std::cin,enter);
+ printf("as he struggles and fails to comprehend what he is seeing the voice whispers to him again...\n");
+ getline (std::cin,enter);
+ printf("annnnnnnyyyy snorrrrrrt... croaked the voice\n");
+ getline (std::cin,enter);
+ printf("Does Joe have any snort?\n");
+ getline (std::cin,enter);
+ printf("1. Only enough for himself\n");
+ printf("2. Ya hapes (appease the spirit)\n");
+ printf("3. No");
+ 
+ cin >> output;
+ 
+ if (output == 1){
+ printf("ngwell\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 2){
+ printf("ngoo\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 3){
+ printf("1234\n");
+ getline (std::cin,enter);
+ }  
+ 
+ 
+ return(output);
+
+}
+    int Arc2_2() {
+   
+ int output;
+ 
+ std::string enter;
+ printf("Arc2_1");
+ getline (std::cin,enter);
+ printf("blady blady blah");
+ getline (std::cin,enter);
+ printf("etc");
+ getline (std::cin,enter);
+ printf("Decide somthing?\n");
+ printf("1?\n");
+ printf("2?\n");
+ printf("3?\n");
+ 
+ cin >> output;
+ 
+ if (output == 1){
+ printf("ngwell\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 2){
+ printf("ngoo\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 3){
+ printf("1234\n");
+ getline (std::cin,enter);
+ }  
+ 
+ 
+ return(output);
+
+}
+    int Arc2_3() {
+   
+ int output;
+ 
+ std::string enter;
+ printf("Arc2_1");
+ getline (std::cin,enter);
+ printf("blady blady blah");
+ getline (std::cin,enter);
+ printf("etc");
+ getline (std::cin,enter);
+ printf("Decide somthing?\n");
+ printf("1?\n");
+ printf("2?\n");
+ printf("3?\n");
+ 
+ cin >> output;
+ 
+ if (output == 1){
+ printf("ngwell\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 2){
+ printf("ngoo\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 3){
+ printf("1234\n");
+ getline (std::cin,enter);
+ }  
+ 
+ 
+ return(output);
+
+}
+
+int Arc3() {
+   
+ int output;
+ 
+ std::string enter;
+ getline (std::cin,enter);
+ printf("Joe lay on his back...\n");
+ getline (std::cin,enter);
+ printf("limp member in hand...\n");
+ getline (std::cin,enter);
+ printf("useleslly pumping away...\n");
+ getline (std::cin,enter);
+ printf("His mind was still reeling after his nightmare...\n");
+ getline (std::cin,enter);
+ printf("He needed to think of somthing to take his mind off of it...\n");
+ getline (std::cin,enter);
+ printf("What should Joe think about?\n");
+ printf("1. Women?\n");
+ printf("2. Men?\n");
+ printf("3. Aliens?\n");
+ 
+ cin >> output;
+ return(output);
+
+}//b8
+    int Arc3_1() {
+   
+ int output;
+ 
+ std::string enter;
+ printf("Arc3_1");
+ getline (std::cin,enter);
+ printf("blady blady blah");
+ getline (std::cin,enter);
+ printf("etc");
+ getline (std::cin,enter);
+ printf("Decide somthing?\n");
+ printf("1?\n");
+ printf("2?\n");
+ printf("3?\n");
+ 
+ cin >> output;
+ 
+ if (output == 1){
+ printf("ngwell\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 2){
+ printf("ngoo\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 3){
+ printf("1234\n");
+ getline (std::cin,enter);
+ }  
+ 
+ 
+ return(output);
+
+}//W 
+    int Arc3_2() {
+   
+ int output;
+ 
+ std::string enter;
+ printf("Arc3_1");
+ getline (std::cin,enter);
+ printf("blady blady blah");
+ getline (std::cin,enter);
+ printf("etc");
+ getline (std::cin,enter);
+ printf("Decide somthing?\n");
+ printf("1?\n");
+ printf("2?\n");
+ printf("3?\n");
+ 
+ cin >> output;
+ 
+ if (output == 1){
+ printf("ngwell\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 2){
+ printf("ngoo\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 3){
+ printf("1234\n");
+ getline (std::cin,enter);
+ }  
+ 
+ 
+ return(output);
+
+}//M
+    int Arc3_3() {
+   
+ int output;
+ 
+ std::string enter;
+ printf("Arc3_1");
+ getline (std::cin,enter);
+ printf("blady blady blah");
+ getline (std::cin,enter);
+ printf("etc");
+ getline (std::cin,enter);
+ printf("Decide somthing?\n");
+ printf("1?\n");
+ printf("2?\n");
+ printf("3?\n");
+ 
+ cin >> output;
+ 
+ if (output == 1){
+ printf("ngwell\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 2){
+ printf("ngoo\n");
+ getline (std::cin,enter);
+ }
+ else if (output == 3){
+ printf("1234\n");
+ getline (std::cin,enter);
+ }  
+ 
+ 
+ return(output);
+
+}//A
+
+
+
+int main()
+{
+ 
+ int test;
+ //TALBOT HOUSE OF HORRORS
+ 
+ test = Intro();//intro
+ 
+ if (test == 1){
+ 
+ test = Arc1();//get water
+ 
+    if(test == 1){
+    test = Arc1_1();//Beer guess
+    }//Beer guess
+    else if (test == 2){
+    test = Arc1_2(); //??
+    }//??
+    else if (test == 3){
+    test = Arc2();//dream
+    if(test == 1){
+        test = Arc2_1();
+    }
+    else if (test == 2){
+        test = Arc2_2();
+    }
+    else if (test == 2){
+        test = Arc2_3();
+    }
+    
+    }//dream
+ }//get water
+ else if (test == 2){
+ test = Arc2(); //dream
+    if(test == 1){
+        test = Arc2_1();
+    }
+    else if (test == 2){
+        test = Arc2_2();
+    }
+    else if (test == 2){
+        test = Arc2_3();
+    }
+    
+ }//dream
+ else if (test == 3){
+     
+ test = Arc3(); //b8
+    if(test == 1){
+        
+    }
+    else if(test == 2){
+        
+    }
+    else if(test == 3){
+        
+    }
+    
+ 
+ }//b8
+ 
+ printf("%i",test);
+
+ 
+}
