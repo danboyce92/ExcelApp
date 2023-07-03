@@ -41,3 +41,23 @@ Comparison operators
 -ge
 -le
 #>
+
+<#
+-not (2 -gt 5)
+True
+ 
+!(17 -le 99)
+False
+#>
+
+
+<#
+$array = 51,12,31,4,15
+foreach ($element in $array) {
+  if ($element % 2 -eq 0) {
+    Write-Host $element "is" Even
+  } else {
+    Write-Host $element "is" Odd
+  }
+}
+#>
