@@ -1,7 +1,13 @@
-﻿$FilePath = "C:\Users\cian1\OneDrive\Documents\powershell project\bum.xlsx"
-$MasterPath = "C:\Users\cian1\OneDrive\Documents\powershell project\Master.xlsx"
+﻿<#
+Cian when you work on this remember to make sure your filePaths are uncommented out
+and to comment my paths out
+#>
 
-#$FilePath = "../folderWithExcelFile/bum.xlsx"
+#$FilePath = "C:\Users\cian1\OneDrive\Documents\powershell project\bum.xlsx"
+#$MasterPath = "C:\Users\cian1\OneDrive\Documents\powershell project\Master.xlsx"
+
+$FilePath = "C:\Users\Daniel\Documents\powershell project\bum.xlsx"
+$MasterPath = "C:\Users\Daniel\Documents\Visual studio code\ExcelApp\master.xlxs"
 
 #opens files in same folder, how do other folders?
 
